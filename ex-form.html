@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example Form</title>
+  </head>
+  <body>
+    <h1>Example Form:</h1>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Your Detail</legend>
+        <p>
+          Name:
+          <input type="text" name="name" id="" /><br />
+          Email: <input type="email" name="email" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Your Review:</legend>
+        <p>
+          How did you hear about us ?
+          <select name="ans">
+            <option value="google">Google</option>
+            <option value="friend">Friend</option>
+            <option value="advert">Advert</option>
+            <option value="other">Other</option>
+          </select>
+        </p>
+        <p>
+          Would you visit again <br />
+          <input type="radio" name="ans2" value="yes" />Yes
+          <input type="radio" name="ans2" value="no" />No
+          <input type="radio" name="ans2" value="maybe" />Maybe
+        </p>
+        Comments: <br />
+        <textarea name="Comment" id="" cols="60" rows="5"></textarea>
+        <p>
+          <input type="checkbox" name="acception" />Sign me up for email update
+          <br />
+          <input type="button" value="Submit review" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
