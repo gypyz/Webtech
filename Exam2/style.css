@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&display=swap");
+* {
+  font-family: "Kanit", sans-serif;
+}
+nav,
+input {
+  font-family: "Kanit", sans-serif;
+  background-color: white;
+  margin: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  text-align: center;
+}
+
+.login {
+  background-color: firebrick;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.login__btn {
+  width: 80%;
+}

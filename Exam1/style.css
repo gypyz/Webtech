@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  padding: 10px;
+  background-color: white;
+  margin: auto;
+}
+
+.container {
+  background-color: rgb(77, 77, 249);
+  width: 50%;
+  height: 10%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.game {
+  background-color: beige;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.secret {
+  background-color: rgb(114, 114, 114);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
+  line-height: 100px;
+}
+
+.guess {
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  width: fit-content;
+  height: 30px;
+  border-radius: 10px;
+}
+.check {
+  background-color: green !important;
+  color: white;
+}
+.re {
+  background-color: red;
+  color: white !important;
+}

@@ -1,0 +1,68 @@
+body {
+  background-color: #d9403c;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://media1.giphy.com/media/rcUnyhf25Bu1y/giphy.gif?cid=ecf05e47r8085bbwxj58br50ayt8jy12ht8wd88yxu1mchc5&ep=v1_stickers_search&rid=giphy.gif&ct=s); /* This is the red color for X,mas */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000; /* This is the green color for X,mas */
+}
+input,
+select,
+option {
+  font-size: 20px;
+}
+
+p {
+  color: #f1e7e8; /* This is the brown color for X,mas */
+}
+
+a {
+  color: #2f3a3c; /* This is the blue color for X,mas */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bdb76b; /* This is the yellow color for X,mas */
+}
+
+form {
+  border-radius: 10px;
+  border-color: #050505;
+  padding: 30px;
+  background-color: #06be25;
+}
+
+#result {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #037c18;
+}
+/* You can also create styles for specific elements, such as buttons, to enhance the X,mas theme */
+
+button {
+  background-color: #d2fc19; /* This is the yellow color for X,mas */
+  color: #050505; /* This is the green color for X,mas */
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #2f3a3c; /* This is the blue color for X,mas */
+  color: white;
+}

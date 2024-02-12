@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" id="regForm">
+      <div>
+        <label for="name">Name :</label>
+        <input type="text" id="name" required placeholder="name..." />
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="Male" />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="female" value="Female" />
+        <label for="gender">Female</label><br />
+      </div>
+      <div>
+        <label for="interests">Interests</label>
+        <input
+          type="checkbox"
+          name="ping-pong"
+          id="interests"
+          value="ping-pong"
+        />
+        <label for="pingpong">Ping-pong</label>
+        <input type="checkbox" name="interests" id="game" value="Game" />
+        <label for="Game">Game</label>
+        <input type="checkbox" name="interests" id="pingpong" value="Music" />
+        <label for="pingpong">Music</label>
+        <input type="checkbox" name="interests" id="dota" value="Dota" />
+        <label for="Dota">Dota</label>
+      </div>
+      <div>
+        <label for="country">Country:</label>
+        <select id="country" onchange="showCity()">
+          <option value="Thailand">Thailand</option>
+          <option value="chinese">Chinese</option>
+          <option value="USA">USA</option>
+        </select>
+      </div>
+
+      <button type="submit">Snap</button>
+      <div id="result"></div>
+      <img
+        src="https://media.tenor.com/PKhB3PhMtdMAAAAi/j%C3%B6n-a-mikul%C3%A1s-santa-claus.gif"
+        alt="Santa_clause"
+      />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
